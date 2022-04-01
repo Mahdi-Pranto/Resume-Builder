@@ -4,7 +4,9 @@
 .body {
     background: #10101B;
     height: 100vh;
+    display: none;
 }
+
                         /* input field styles */
 input[type='text']{
     background-color: #3D4153;
@@ -92,4 +94,41 @@ h3{
 .half-width-generate{
     background: #222436;
     text-align: center;
+}
+
+.add-more-work{
+    background-color: #3D4153;
+    color: #ffffff;
+    border: 2px solid #858299;
+}
+.add-more-work:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+.resume-builder{
+    display: none;
+}
+
+
+                    /* resume-main section */
+
+.my-img{
+    
+    border-radius: 50%;
+    width: 250px;
+}
+.background-left{
+    background-color: #668cff;
+}
+.social{
+    padding-top: 20px;
+    
+}
+
+
+hr{
+    height: 50%;
+    opacity: 80%;
+    
 }
