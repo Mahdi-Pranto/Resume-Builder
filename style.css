@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    background: #10101B;
+
+
+}
+
+/* input field styles */
+input[type='text'] {
+    background-color: #3D4153;
+    color: #ffffff;
+    border: 2px solid #858299;
+}
+
+input[type='text']:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type='number'] {
+    background-color: #3D4153;
+    color: #ffffff;
+    border: 2px solid #858299;
+}
+
+input[type='number']:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+
+textarea[type='text'] {
+    background-color: #3D4153;
+    color: #ffffff;
+    border: 2px solid #858299;
+}
+
+textarea[type='text']:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type='email'] {
+    background-color: #3D4153;
+    color: #ffffff;
+    border: 2px solid #858299;
+}
+
+input[type='email']:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+
+label {
+    color: gray;
+    font-weight: bold;
+}
+
+h1 {
+    color: gray;
+}
+
+h3 {
+    color: gray;
+}
+
+.half-width {
+    background: #222436;
+    padding: 30px;
+}
+
+.addskill-btn {
+    border: none;
+    padding: 6px 20px;
+    border-radius: 5px;
+    background: #495BC3;
+    color: #fff;
+}
+
+.addskill-btn:hover {
+    border-color: white;
+}
+
+.addskill-btn:active,
+.addskill-btn:focus {
+    border: solid #6778db;
+    color: #fff;
+}
+
+.generate-btn {
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: #495BC3;
+    color: #fff;
+    font-size: large;
+
+}
+
+.generate-btn:focus {
+    border: solid #6778db;
+    color: #fff;
+}
+
+.half-width-generate {
+    background: #222436;
+    text-align: center;
+}
+
+.add-more-work {
+    background-color: #3D4153;
+    color: #ffffff;
+    border: 2px solid #858299;
+}
+
+.add-more-work:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* .resume-builder {} */
+
+
+/* resume-main section */
+
+.my-img {
+
+    border-radius: 50%;
+    width: 250px;
+}
+
+.background-left {
+    background-color: #668cff;
+}
+
+.social {
+    padding-top: 20px;
+
+}
+
+.skillListItems {
+    margin: 20px;
+}
+
+hr {
+    height: 50%;
+    opacity: 80%;
+    text-align: center;
+}
+
+.name-mahdi {
+    color: #6778db !important;
+
+}
+
+.resume-row {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #668cff;
+}
+
+.mahdi-hr {
+    width: 150px;
+    height: 3px !important;
+    opacity: 80%;
+    margin: auto;
+}
+
+.print-resume-btn {
+    align-items: center;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background: #6778db;
+    color: #fff;
+    font-size: 20px;
+}
+
+.print-resume-btn:focus {
+    background: #495BC3;
+    border: solid #495BC3;
+    color: #fff;
+}
